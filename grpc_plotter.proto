@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+service Plotter {
+  rpc GetNextPoint (Request) returns (Point);
+}
+
+message Request {}
+
+message Point {
+  float x = 1;
+  float y = 2;
+}
