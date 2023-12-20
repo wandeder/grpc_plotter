@@ -1,2 +1,2 @@
 grpcio
-matplotlib
+protobuf

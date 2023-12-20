@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 service Plotter {
-  rpc GetNextPoint (Request) returns (Point);
+  rpc GetNextPoint(Request) returns (Point);
 }
 
 message Request {}
